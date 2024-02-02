@@ -1,0 +1,332 @@
+.section__card {
+    margin-left: 145px;
+
+    .section__card-info {
+
+        margin-right: 0;
+        display: grid;
+        justify-self: center;
+        width: 233px;
+
+    }
+
+    .section__card_text {
+        width: 233px;
+
+        background-color: #dbd9d7c1;
+        margin: 10px 0;
+        border-radius: 15px;
+        transition: border 0.3s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+        .span1 {
+            margin: 10px 10px;
+            font-size: x-small;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 300;
+            color: black;
+            margin: 0 10px;
+        }
+
+        p {
+            font-size: small;
+            margin: 0 10px;
+        }
+
+        &:hover {
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            border: #0eb8a4c1;
+        }
+
+
+        .bnm {
+            height: 260px;
+            width: 230px;
+            border-radius: 15px 15px 0 0;
+
+
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .section__ana {
+
+        display: flex;
+        flex-direction: column;
+
+        .section__card {
+
+
+            .section__card-info {
+                display: flex;
+                flex-direction: column;
+                width: 450px;
+
+                margin: auto;
+
+                .section__card_text {
+                    width: 400px;
+
+                    height: 400px;
+
+                    .bnm {
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (min-width:600px) {
+    .section__ana {
+
+
+        .section__card {
+
+
+
+            .section__card-info {
+
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin-left: 20px;
+
+                .section__card_text {
+
+                    width: 245px;
+
+                    .bnm {
+                        width: 240px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
+
+@media screen and (min-width:650px) {
+    .section__ana {
+       
+
+
+        .section__card {
+            
+
+            margin-left: 5px;
+
+            .section__card-info {
+                
+                display: flex;
+                justify-content: center;
+                gap: 5px;
+                width: 800px;
+                margin-right: 15pxpx;
+
+                .section__card_text {
+                    
+
+                    height: 400px;
+
+                    p {
+                        font-size: 9px;
+                    }
+
+                    h4 {
+                        font-size: 8px;
+                    }
+
+                    width: 150px;
+
+                    .bnm {
+                        width: 149px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
+@media screen and (min-width:700px) {
+    .section__ana {
+       
+
+
+        .section__card {
+            
+
+            margin-left: 5px;
+
+            .section__card-info {
+                
+                display: flex;
+                justify-content: center;
+                
+                width: 800px;
+                margin-left: 80px;
+
+                .section__card_text {
+                  
+
+                    height: 400px;
+                 margin-left: 10px;
+                    p {
+                        font-size: 9px;
+                    }
+
+                    h4 {
+                        font-size: 8px;
+                    }
+
+                    width: 150px;
+
+                    .bnm {
+                        width: 149px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
+@media screen and (min-width:800px) {
+    .section__ana {
+       
+
+
+        .section__card {
+            
+           margin-left: 40px;
+            
+            .section__card-info {
+                
+                display: flex;
+                justify-content: center;
+                
+                margin-left:80px ;
+
+                .section__card_text {
+                  
+
+                    height: 450px;
+                 
+                    p {
+                        font-size: 10px;
+                    }
+
+                    h4 {
+                        font-size: 12px;
+                    }
+
+                    width: 170px;
+                    
+                    .bnm {
+                        width: 168px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
+@media screen and (min-width:950px) {
+    .section__ana {
+       
+
+
+        .section__card {
+            
+          
+            
+            .section__card-info {
+                
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                margin-left:150px ;
+
+                .section__card_text {
+                  
+
+                    height: 500px;
+                 
+                    p {
+                        font-size: 12px;
+                    }
+
+                    h4 {
+                        font-size: 12px;
+                    }
+
+                    width: 200px;
+                    
+                    .bnm {
+                        width: 198px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
+@media screen and (min-width:1050px) {
+    .section__ana {
+       
+
+
+        .section__card {
+            h2{
+                margin-left: 80px;
+            }
+            
+        
+            
+            .section__card-info {
+                
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                .section__card_text {
+                  
+                  
+                    height: 500px;
+                 
+                    p {
+                        font-size: 14px;
+                    }
+
+                    h4 {
+                        font-size: 14px;
+                    }
+
+                    width: 222px;
+                    
+                    .bnm {
+                        width: 220px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
